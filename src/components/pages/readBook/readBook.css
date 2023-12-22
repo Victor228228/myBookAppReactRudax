@@ -1,0 +1,22 @@
+.readBook {
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    height: 100vh;
+    z-index: 333333333333333333333333333333333333333333333333333333333;
+}
+.readBook_header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0, .1);
+
+}
+.readBook_header_arrowBack {
+
+}
+.readBook_content {
+
+}

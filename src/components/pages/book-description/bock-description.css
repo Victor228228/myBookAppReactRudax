@@ -1,0 +1,85 @@
+.book {
+    padding: 0 20px 80px 20px;
+    width: 100%;
+
+}
+.bookDescription_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.bookDescription_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bookDescription_content_img {
+    width: 196px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.bookDescription_content_bookName {
+    text-align: center;
+    color: #19191B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bookDescription_content_author {
+    color: #9D9D9D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.bookDescription_content_rating {
+    margin-bottom: 20px;
+}
+.bookDescription_aboutBook_title {
+    color: #19191B;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.bookDescription_aboutBook_text {
+    color: #9D9D9D;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.bookDescription_buttonRead {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    width: 80%;
+    height: 55px;
+    padding: 17px 0px 20px 0px;
+    border-radius: 10px;
+    background: #D45555;
+
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.bookDescription_content_rating i {
+    cursor: pointer;
+    font-size: 19px;
+    margin-right: 5px;
+}
+.bookDescription_content_rating .checked{
+    color: darkorange;
+}

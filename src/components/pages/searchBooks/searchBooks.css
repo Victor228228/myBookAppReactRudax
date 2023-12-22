@@ -1,0 +1,39 @@
+.search_books_error {
+    color: #333;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px;
+    text-align: center;
+}
+.search_books {
+    margin: 0 20px;
+}
+.search_books_title {
+    margin: 20px 0;
+    text-align: center;
+}
+.search_books_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardImg {
+    width: 160px;
+    height: 250px;
+}
+.cardTitle {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cardText {
+    color: #9D9D9D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
